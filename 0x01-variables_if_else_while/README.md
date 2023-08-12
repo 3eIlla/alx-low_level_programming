@@ -156,7 +156,7 @@ All your code should be in the main function
 
 
 
-# File: 102-print_comb5.c 
+# File: 102-print_comb5.c
 12. Software is eating the World
 #advanced
 Write a program that prints all possible combinations of two two-digit numbers.
