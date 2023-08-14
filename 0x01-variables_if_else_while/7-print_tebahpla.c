@@ -2,14 +2,16 @@
 /**
  * main - Entry point
  *
- * Description: prints the lowercase alphabet in reverse, followed by a new line.
+ * Description: prints lowercase alphabet in reverse, followed by a new line.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
-{char (ch) = 'z';
+{
+char (ch) = 'z';
 while (ch >= 'a')
-{putchar(ch);
+{
+putchar(ch);
 ch--;}
 putchar('\n');
 return (0); 
