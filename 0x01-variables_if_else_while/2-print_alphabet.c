@@ -2,17 +2,17 @@
 /**
  * main - Entry point
  *
- * Description: A C that prints the alphabet in lowercase, followed by a new line.
+ * Description: prints the alphabet in lowercase, followed by a new line.
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 char ch = 'a';
-    while (ch <= 'z')
-    {
-        putchar(ch);
-        ch++;
-    }
-    putchar('\n');
-    return (0);
+while (ch <= 'z')
+{
+putchar(ch);
+ch++;
+}
+putchar('\n');
+return (0);
 }
