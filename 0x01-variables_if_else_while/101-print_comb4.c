@@ -17,7 +17,7 @@ while (n2 <= 9)
 {
 n3 = 0;
 while (n3 <= 9)
-{ 
+{
 if (n1 != n2 && n1 < n2 && n2 < n3 && n2 != n3)
 {
 putchar(n1 + 48);
