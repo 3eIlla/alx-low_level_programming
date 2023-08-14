@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: prints single no. of base 10 starting fr 0, followed by a new line.
+ * Description: prints single no. of base 10 starting fr 0, followed by a line.
  *
  * Return: Always 0 (Success)
  */

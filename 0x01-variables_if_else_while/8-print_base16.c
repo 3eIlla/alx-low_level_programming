@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: that prints all the no of base 16 in lowercase, followed by a new line.
+ * Description: prints all no of base 16 in lowercase, followed by a new line.
  *
  * Return: Always 0 (Success)
  */
