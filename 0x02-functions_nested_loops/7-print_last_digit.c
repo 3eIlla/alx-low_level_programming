@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abs - check the no. sign
+ * print_last_digit - check the no. sign
  *
  * Description: print_sign utilizes on the _putchar function.
  *
@@ -20,6 +20,6 @@ else
 {
 ld = n % 10;
 _putchar(ld + '0');
-}
 return (ld);
+}
 }
