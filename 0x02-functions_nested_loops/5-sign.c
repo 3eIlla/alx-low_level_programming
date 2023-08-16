@@ -2,10 +2,9 @@
 /**
  * print_sign - check the no. sign
  *
- * @c: takes integer type input for the function
- *
  * Description: print_sign utilizes on the _putchar function.
  *
+ * @n: takes integer type input for the function
  * Return: 1 = n+, -1 = n-
  * else 0 (Success)
  *
