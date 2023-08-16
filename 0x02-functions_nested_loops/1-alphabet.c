@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: prints alphabet using _putchar.
+ * Description: print_alphabet utilizes on the _putchar function.
  *
  */
 
