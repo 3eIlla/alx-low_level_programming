@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet_x10 - print x10 times in new line
  *
  * Description: print_alphabet_x10 utilizes on the _putchar function.
  *
