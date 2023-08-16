@@ -2,7 +2,7 @@
 /**
  * jack_bauer- check the no. sign
  *
- * Description: use on the _putchar function. takes integer type input for the func.
+ * Description: use on the _putchar func. takes integer input for the func.
  * Return: always  (Success)
  *
  */
