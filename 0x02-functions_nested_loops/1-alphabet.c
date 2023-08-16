@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - print the alphabets 
+ * print_alphabet - print the alphabets
  *
  * Description: print_alphabet utilizes on the _putchar function.
  *
