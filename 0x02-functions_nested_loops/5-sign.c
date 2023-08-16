@@ -6,7 +6,7 @@
  *
  * Description: print_sign utilizes on the _putchar function.
  *
- * Return: 1 = c+, -1 = c-
+ * Return: 1 = n+, -1 = n-
  * else 0 (Success)
  *
  */

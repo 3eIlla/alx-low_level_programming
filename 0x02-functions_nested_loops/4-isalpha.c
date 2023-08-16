@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _islower - check the char to lowercase
+ * _isalpha - check the alphabetic char
  *
- * @c: takes input from ather function
+ * @c: takes input from other function
  *
- * Description: _islower utilizes on the _putchar function.
+ * Description: _isalpha utilizes on the _putchar function.
  *
- * Return: 1 = c is lowerc.
+ * Return: 1 = c is alphabet.
  * else 0 (Success)
  *
  */
