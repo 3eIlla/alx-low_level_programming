@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-int l + 0;
+int l, num;
+l + 0;
 if (!num)
 {
 return (1);
@@ -53,7 +54,7 @@ fo2 = sumo;
 }
 else if (c != 98)
 {
-printf(". ")
+printf(". ");
 }
 else
 {

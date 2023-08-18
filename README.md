@@ -1,5 +1,5 @@
 *Learning Objectives*
-# 1 General
+# 0 General
 > Why C programming is awesome
 - Who invented C
     - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
@@ -16,7 +16,7 @@
     - How to find the right header to include in your source code when using a standard library function
     - How does the main function influence the return value of the program
 
-# 2 General 
+# 1 General 
 > What::
 - are the arithmetic operators and how to use them
     - What are the logical operators (sometimes called boolean operators) and how to use them
@@ -36,7 +36,7 @@
     - How to print variables using printf
 
 
-# 3 General
+# 2 General
 > What::
 - are nested loops and how to use them
     - What is a function and how do you use functions
@@ -46,5 +46,11 @@
     - What are header files and how to to use them with #include
 - Scope of variables
 
+
+# 3 General 
+> What:
+- is debugging
+- are some methods of debugging manually
+> How to read the error messages
 
 *THE END*
