@@ -13,7 +13,7 @@ int nn, s;
 if (n <= 0)
 {
 _putchar('\n');
-else
+if (n > 0)
 {
 for (nn = 1; nn <= n; nn++)
 {
