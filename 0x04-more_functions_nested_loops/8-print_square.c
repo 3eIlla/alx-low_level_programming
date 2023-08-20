@@ -7,6 +7,7 @@
  * return :always 0 (sucsses)
  */
 
+
 void print_square(int size)
 {
 int r, c;

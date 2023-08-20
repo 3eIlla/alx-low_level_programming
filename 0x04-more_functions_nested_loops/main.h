@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 int _putchar(char c);
+
 /*0*/ /*1*/
 int _isupper(int c);
 
