@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _atoi - return the length of the string
+ * _atoi - return the char *s  as a length of the string
  *
- * @s : string parameter input
- *
- * Return : the reversed length
+ * @s : string parameter
+	*
 	* Return : result of (n * z) :: succes
  */
 
