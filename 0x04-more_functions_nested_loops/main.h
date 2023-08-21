@@ -1,9 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
+#include <unistd.h>
 
 int _putchar(char c);
+
+
+#include <stdio.h>
+
+
 
 /*0*/ /*1*/
 int _isupper(int c);
