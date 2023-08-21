@@ -6,7 +6,7 @@
  * @s : string parameter input
  *
  * Return : the reversed length
-	* Return : always 0 (succes)
+	* Return : result of (n * z) :: succes
  */
 
 int _atoi(char *s)
