@@ -11,7 +11,7 @@
 void puts_half(char *stro)
 {
 	int l;
-	
+
 	for (l = 0; stro[l] != '\0'; l++)
 	{
 		;
