@@ -3,11 +3,11 @@
 /**
  * *_strcpy - cp the string
  *
- * Descriptio: function copies string pointed by src to pointed to by dest.
+ * Description : function copies string pointed by src to pointed to by dest.
  * @src :  parameter input
  * @dest : parameter input
  *
- * Return : to dest
+ * Return value: the pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
