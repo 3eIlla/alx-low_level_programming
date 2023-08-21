@@ -3,6 +3,7 @@
 /**
  * *_strcpy - cp the string
  *
+ * Descriptio: function copies string pointed by src to pointed to by dest.
  * @src :  parameter input
  * @dest : parameter input
  *
