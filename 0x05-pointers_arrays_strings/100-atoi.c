@@ -6,6 +6,7 @@
  * @s : string parameter input
  *
  * Return : the reversed length
+	* Return : always 0 (succes)
  */
 
 int _atoi(char *s)
