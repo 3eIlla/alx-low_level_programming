@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * *_strcpy - cp the string
+ * char *_strcpy- cp the string
  *
+ * Description : function cp string pointed by 'src' to pointed to by 'dest' .
  * @src :  parameter input
  * @dest : parameter input
  *
- * Return : to dest
+ * Return : to 'dest'
  */
 
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *src, char *dest)
 {
 	int l = -1;
 
@@ -19,5 +20,6 @@ char *_strcpy(char *dest, char *src)
 		++l;
 		dest[l] = src[l];
 	} while (src[l] != '\0');
+
 	return (dest);
 }
