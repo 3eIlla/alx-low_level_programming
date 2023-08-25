@@ -1,11 +1,31 @@
 #include "main.h"
 
 /**
- * _strcat- return the length of the string
+ * * *infinite_add - return the size of the string
  *
- * @stro : string parameter input
+ * @size : parameter input
+ * @b : string parameter input
  *
  * Return : noth
  */
 
-char *infinite_add(char *n1, char *n2, char *r, int size_r);
+void print_buffer(char *b, int size)
+{
+	int s, e;
+
+	if (size > 0)
+	{
+		for (s = 0; s < size; s += 10)
+		{
+			e = ((size - s) > 10) ? (size - s) : 10;
+			printf("%08x: ", s);
+			printHexes(b, s, e);
+			printASCII(b, s, e);
+			printf("\n");
+		}
+	}
+	else
+	{
+		printf("\n");
+	}
+}
