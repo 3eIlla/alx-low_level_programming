@@ -1,11 +1,26 @@
 #include "main.h"
 
 /**
- * _strcat- return the length of the string
+ * print_number - return the length of the string
  *
- * @stro : string parameter input
+ * @n : string parameter input
  *
  * Return : noth
  */
 
-void print_number(int n);
+void print_number(int n)
+{
+	unsigned int l;
+
+	l = n;
+	if (n < 0)
+	{
+		_putchar('-');
+		l = -n;
+	}
+	else if (l / 10 != 0)
+	{
+		print_number(l / 10);
+	}
+	_putchar((l % 10) + '0');
+}

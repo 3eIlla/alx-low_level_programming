@@ -108,7 +108,7 @@ You are not allowed to use any ternary operation
 
 # File: 100-rot13.c
 8. rot13
-#advanced
+\#advanced
 Write a function that encodes a string using rot13.
 
 Prototype: char *rot13(char *);
@@ -117,7 +117,7 @@ You can only use two loops in your code
 You are not allowed to use switch
 You are not allowed to use any ternary operation
 
-# File: 101-print_number.c 
+# File: 101-print_number.c
 9. Numbers have life; they're not just symbols on paper
 \#advanced
 Write a function that prints an integer.
@@ -128,8 +128,6 @@ You are not allowed to use long
 You are not allowed to use arrays or pointers
 You are not allowed to hard-code special values
 
-# File: 101-print_number.c
-
 
 
 # File: 102-magic.c
@@ -138,6 +136,15 @@ You are not allowed to hard-code special values
 
 
 Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
+> /*
+   * write your line of code here...
+   * Remember:
+   * - you are not allowed to use a
+   * - you are not allowed to modify p
+   * - only one statement
+   * - you are not allowed to code anything else than this line of code
+   */
+
 
 You are not allowed to use the variable a in your new line of code
 You are not allowed to modify the variable p

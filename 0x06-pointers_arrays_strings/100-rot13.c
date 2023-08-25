@@ -3,9 +3,31 @@
 /**
  * _strcat- return the length of the string
  *
- * @stro : string parameter input
+ * @s : string parameter input
  *
- * Return : noth
+ * Return : pointer
  */
 
-char *rot13(char *);
+char *rot13(char *s)
+{
+	int l;
+
+	char rot13[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char ROT13[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char *p = s;
+
+	while (*s)
+	{
+		for (l = 0; l <= 52; l++)
+		{
+			if (*s == rot13[l])
+			{
+				*s = ROT13[l];
+				break;
+			}
+			
+		}
+		s = s + 1;
+	}
+	return (p);
+}

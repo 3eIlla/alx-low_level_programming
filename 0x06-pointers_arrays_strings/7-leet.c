@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * *lee- return the length of the string
+ * *leet - return the length of the string
  *
  * @b : input
  *
  * Return : noth
  */
 
-char *lee(char *b)
+char *leet(char *b)
 {
 	char *ab = b;
 
