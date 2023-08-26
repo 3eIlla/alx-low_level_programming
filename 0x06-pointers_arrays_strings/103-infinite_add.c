@@ -15,7 +15,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i = 0, j = 0;
 	int l = 0, d = 0;
-	int k, f, s, d;
+	int k, f, s;
 	int t = (f + s + d);
 
 	while (n1[i] != '\0')
@@ -28,10 +28,10 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	if (i > j)
 	{
-		1 = j;
+		l = i;
 		else
 		{
-			1 = j;
+			l = j;
 		}
 	}
 	else if (l + 1 > size_r)
