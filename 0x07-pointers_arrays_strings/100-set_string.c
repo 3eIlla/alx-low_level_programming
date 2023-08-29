@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strpbrk - value of point.
+ * set_string - value of point.
  *
  * @s: pointer to ppoint.
  * @to: char point.
