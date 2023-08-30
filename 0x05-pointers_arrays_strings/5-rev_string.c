@@ -3,9 +3,9 @@
 /**
  * rev_string - return the length of the string
  *
- * @s : string parameter input
+ * @s: string parameter input
  *
- * Return : nothin
+ * Return: nothin
  */
 
 void rev_string(char *s)

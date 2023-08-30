@@ -3,9 +3,9 @@
 /**
  * print_rev - return the length of the string
  *
- * @s : string parameter input
+ * @s: string parameter input
  *
- * Return : the reversed length
+ * Return: the reversed length
  */
 
 void print_rev(char *s)

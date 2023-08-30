@@ -3,9 +3,9 @@
 /**
  * _atoi - return the length of the string
  *
- * @s : string parameter input
+ * @s: string parameter input
  *
- * Return : the reversed length
+ * Return: the reversed length
  */
 
 int _atoi(char *s)

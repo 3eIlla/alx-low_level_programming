@@ -3,9 +3,9 @@
 /**
  * _strlen - return the length of the string
  *
- * @s : string parameter input
+ * @s: string parameter input
  *
- * Return : the length of the _string
+ * Return: the length of the _string
  *
  */
 

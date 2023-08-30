@@ -5,7 +5,7 @@
 /**
  * main - rund passW 101 crackme
  *
- * Return : always 0 (succes)
+ * Return: always 0 (succes)
  *
  */
 
