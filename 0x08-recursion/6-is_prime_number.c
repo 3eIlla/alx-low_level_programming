@@ -28,7 +28,7 @@ int check_p(int n, int o)
 	{
 		return (1);
 	}
-	else if (n % o || n <= 1)
+	else if (n % o == 0 || n <= 1)
 	{
 		return (0);
 	}
