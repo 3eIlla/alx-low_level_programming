@@ -34,6 +34,6 @@ int check_p(int n, int o)
 	}
 	else
 	{
-		return (check_p(o + 1));
+		return (check_p(n, o + 1));
 	}
 }
