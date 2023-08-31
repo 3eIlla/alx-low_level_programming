@@ -1,0 +1,700 @@
+
+
+
+# *Quiz questions*
+
+# 0x00
+
+
+######
+
+# 0x01
+
+
+######
+
+# 0x02
+
+
+######
+
+# 0x03
+
+
+######
+
+# 0x04
+
+
+######
+
+# 0x05
+> Question #0
+
+What is the value of n after the following code is executed?
+
+int n = 98;
+int *p = &n;
+
+*p++;
+
+402
+
+
+0
+
+
+\>> 98
+
+
+99
+
+> Question #1
+
+What is the value of n after the following code is executed?
+
+int n = 98;
+int *p = &n;
+
+402
+
+
+0
+
+
+\>> 98
+
+
+99
+
+> Question #2
+
+What happens when one tries to access an illegal memory location?
+
+
+There’s a chance for the computer to catch fire, and sometimes even explode
+
+
+The operation is ignored
+
+
+\>> Segmentation fault
+
+
+The computer shuts down
+
+> Question #3
+
+Is it possible to declare a pointer to a pointer?
+
+
+\>> Yes
+
+
+No
+
+
+It depends on the type the pointer is pointing to
+
+> Question #4
+
+The process of getting the value that is stored in the memory location pointed to by a pointer is called:
+
+
+Casting
+
+
+Pointing
+
+
+Accessing
+
+
+\>> Dereferencing
+
+> Question #5
+
+If we have a variable called var of type int, how can we get its address in memory?
+
+
+*var
+
+
+*(var)
+
+
+\>> &var
+
+> Question #6
+
+What is the size of a pointer to an int (on a 64-bit architecture)
+
+
+\>> 8 bytes
+
+
+1 byte
+
+
+2 bytes
+
+
+4 bytes
+
+> Question #7
+
+We declare the following variable
+
+int arr[5];
+What is the size in memory of the variable arr?
+
+
+\>> 20 bytes
+
+
+4 bytes
+
+
+5 bytes
+
+
+32 bytes
+
+
+10 bytes
+
+
+8 bytes
+
+> Question #8
+
+What is the value of n after the following code is executed?
+
+int n = 98;
+int *p = &n;
+
+*p = 402;
+
+\>> 402
+
+
+0
+
+
+98
+
+
+99
+
+> Question #9
+
+What is the size of a pointer to a char (on a 64-bit architecture)
+
+
+\>> 8 bytes
+
+
+1 byte
+
+
+2 bytes
+
+
+4 bytes
+
+> Question #10
+
+We declare the following variable
+
+int arr[5];
+What is the equivalent of typing arr[2]?
+
+
+arr + 2
+
+
+*arr + 2
+
+
+\>> *(arr + 2)
+
+> Question #11
+
+What is the value of n after the following code is executed?
+
+int n = 98;
+int *p = &n;
+
+p = 402;
+
+402
+
+
+0
+
+
+\>> 98
+
+
+99
+
+> Question #12
+
+What is the identifier to print an address with printf?
+
+
+%x
+
+
+%a
+
+
+%d
+
+
+\>> %p
+
+######
+
+# 0x06
+> Question #0
+
+What happens when one tries to dereference a pointer to NULL?
+
+
+World War Z
+
+
+Nothing
+
+
+\>> Segmentation fault
+
+
+Kernel panic
+
+> Question #1
+
+What is/are the difference(s) between the two following variables? (Except their names)
+
+char *s1 = "";
+char *s2 = NULL;
+
+The second one can be dereferenced, not the first one
+
+
+They are the same
+
+
+\>> The first one points to a 0-byte, the second one points to 0
+
+
+\>> The first one can be dereferenced, not the second one
+
+
+The first one points to 0, the second one points to a 0-byte
+
+> Question #2
+
+Why is it important to reserve enough space for an extra character when declaring/allocating a string?
+
+
+For fun
+
+
+In case we need one
+
+
+For memory alignment
+
+
+\>> For the null byte (end of string)
+
+> Question #3
+
+What is wrong with the following code?
+
+int n = 5;
+int array[n];
+int i = 3;
+
+array[n] = i;
+
+It is not possible to access array[n]
+
+
+Nothing is wrong
+
+
+\>> It is impossible to declare the variable array this way
+
+
+The array array is not entirely initialized
+
+> Question #4
+
+What is wrong with the following code?
+
+int n = 5;
+int array[10];
+int i = 3;
+
+array[n] = i;
+
+It is not possible to access array[n]
+
+
+\>> Nothing is wrong
+
+
+It is impossible to declare the variable array this way
+
+
+The array array is not entirely initialized
+
+> Question #5
+
+var = "Best";
+What is the type of var?
+
+
+string
+
+
+\>> char *
+
+
+int *
+
+> Question #6
+
+What is wrong with the following code?
+
+int n = 5;
+int array[5];
+int i = 3;
+
+array[n] = i;
+
+\>> It is not possible to access array[n]
+
+
+Nothing is wrong
+
+
+It is impossible to declare the variable array this way
+
+
+The array array is not entirely initialized
+
+######
+
+# 0x07
+> Question #0
+
+What is the size of *p in this code?
+
+int *p;
+
+\>> 4 bytes
+
+
+8 bytes
+
+
+16 bytes
+
+> Question #1
+
+What is the size of *p in this code?
+
+int **p;
+
+4 bytes
+
+
+\>> 8 bytes
+
+
+16 bytes
+
+> Question #2
+
+In this following code, what is the value of a[1][1]?
+
+int a[5][2] = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
+
+\>> 4
+
+
+1
+
+
+2
+
+
+3
+
+> Question #3
+
+In this following code, what is the value of a[3][1]?
+
+int a[5][2] = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
+
+\>> 8
+
+
+7
+
+
+9
+
+
+{7, 8}
+
+> Question #4
+
+In this following code, what is the value of a[0][0]?
+
+int a[5][2] = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
+
+4
+
+
+\>> 1
+
+
+2
+
+
+3
+
+> Question #5
+
+What is the size of p in this code?
+
+int **p;
+
+4 bytes
+
+
+\>> 8 bytes
+
+
+16 bytes
+
+> Question #6
+
+What is the size of p in this code?
+
+int *p;
+
+4 bytes
+
+
+\>> 8 bytes
+
+
+16 bytes
+
+> Question #7
+
+What is stored inside a pointer to a pointer to an int?
+
+
+An address where an int is stored
+
+
+An int
+
+
+\>> An address where an address is stored
+
+> Question #8
+
+In this following code, what is the value of a[3][0]?
+
+int a[5][2] = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 10}};
+
+5
+
+
+\>> 7
+
+
+8
+
+
+{7, 8}
+
+######
+
+
+# 0x08
+> Question #0
+
+What does this code print?
+
+int print(int nb)
+{
+    if (nb < 0) 
+    {
+        return (0);
+    }
+    printf("%d", nb + print(nb - 1));
+    nb --;
+    return (nb);
+}
+
+int main(void)
+{
+    print(4);
+    return (0);
+}
+
+64200
+
+
+\>> 00246
+
+
+01234568
+
+> Question #1
+
+What does this code print?
+
+void print(int nb)
+{
+    printf("%d", nb);
+    nb ++;
+    if (nb < 10) 
+    {
+        print(nb);
+    }
+}
+
+int main(void)
+{
+    print(4);
+    return (0);
+}
+
+\>> 456789
+
+
+987654
+
+
+109876543
+
+
+345678910
+
+> Question #2
+
+What does this code print?
+
+void print(int nb)
+{
+    printf("%d", nb);
+    -- nb;
+    if (nb > 0) 
+    {
+        print(nb);
+    }
+}
+
+int main(void)
+{
+    print(4);
+    return (0);
+}
+
+3210
+
+
+\>> 4321
+
+
+43210
+
+
+321
+
+> Question #3
+
+What does this code print?
+
+void print(int nb)
+{
+    printf("%d", nb);
+    nb --;
+    if (nb > 0) 
+    {
+        print(nb);
+    }
+}
+
+int main(void)
+{
+    print(2);
+    return (0);
+}
+
+210
+
+
+012
+
+
+12
+
+
+\>> 21
+
+> Question #4
+
+What does this code print?
+
+void print(int nb)
+{
+    if (nb < 0) 
+    {
+        return;
+    }
+    printf("%d", nb);
+    nb --;
+    print(nb);
+}
+
+int main(void)
+{
+    print(4);
+    return (0);
+}
+
+4321
+
+
+01234
+
+
+\>> 43210
+
+
+1234
+######
+
+# 0x09
+
+
+######
+
+# 0x10
+
+
+######
+
+
+*THE END*

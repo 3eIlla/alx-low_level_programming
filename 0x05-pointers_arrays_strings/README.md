@@ -119,24 +119,5 @@ You don’t have to pass the betty-style tests (you still need to pass the betty
 man srand, rand, time
 gdb and objdump can help
 
-# 
-
-
-# 
-
-
-# 
-
-
-# 
-
-
-
-# 
-
-
-
-
-
 
 *THE END*

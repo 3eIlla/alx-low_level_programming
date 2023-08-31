@@ -1,4 +1,6 @@
 *Learning Objectives*
+
+
 # 0 General
 > Why C programming is awesome
 - Who invented C
@@ -99,7 +101,36 @@
 
 
 
+# 8 General
+> What is recursion
+- In what situations you should implement recursion
+- In what situations you shouldn’t implement recursion
+
+> How to implement recursion
 
 
+# 
+
+
+# 
+
+
+# 
+
+
+# 
+
+
+
+# 
+
+
+
+
+
+\# NOTE::
+To Run localy, use command:
+$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-main.c 0-file.c -o 0-file
+\#
 
 *THE END*
