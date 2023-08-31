@@ -129,7 +129,8 @@
 
 
 \# NOTE::
-To Run localy, use command:
+\! All your files will be compiled on Ubuntu 20.04 LTS;
+\. To Run localy, use command:
 $ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 0-main.c 0-file.c -o 0-file
 \#
 
