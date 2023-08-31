@@ -25,9 +25,11 @@ int _pow_recursion(int x, int y);
 
 /*5*/
 int _sqrt_recursion(int n);
+int square(int n, int v);
 
 /*6*/
 int is_prime_number(int n);
+int check_p(int n, int o);
 
 /*7*/
 int is_palindrome(char *s);

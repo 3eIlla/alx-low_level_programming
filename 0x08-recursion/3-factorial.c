@@ -1,11 +1,22 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - N.proto
+ * factorial - N.proto
  *
- * @s: input
+ * @n: input
  *
- * Return: nothin
+ * Return: result
  */
 
-int factorial(int n);
+int factorial(int n)
+{
+	if (n > 0)
+	{
+		return (-1);
+	}
+	else if (n == 0)
+	{
+		return (1);
+	}
+	return (n * factorial(n - 1));
+}
