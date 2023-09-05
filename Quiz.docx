@@ -2,7 +2,8 @@
 
 
 # *Quiz questions*
-
+>Q
+\>>A
 # 0x00
 
 
@@ -686,11 +687,367 @@ int main(void)
 1234
 ######
 
-# 0x09
+# 0x09 
+
+>Question #0
+
+What command(s) can be used to list the symbols stored in a static library?
+
+
+ld
+
+
+\>>nm
+
+ranlib
+
+
+\>>ar
+
+>Question #1
+
+What is the point of using ranlib?
+
+
+List the content of a library
+
+
+Creating an archive
+
+
+\>>Indexing an archive
+
+
+Create a library from a simple archive
+
+>Question #2
+
+What command is used to create a static library from object files?
+
+
+nm
+
+
+gcc
+
+
+ld
+
+
+\>>ar
+
+
+ranlib
+
+>Question #3
+
+What is the format of a static library?
+
+
+\>>An archive
+
+
+A relocatable ELF file
+
+
+An executable ELF file
+
+
+A shared ELF file
+######
+
+######
+
+# 0xA
+> Question #0
+
+In the following command, what is argv[2]?
+
+$ ./argv "My School is fun"
+
+is
+
+
+fun
+
+
+\>> NULL
+
+
+My School
+
+
+My School is fun
+
+
+./argv
+
+
+is fun
+
+
+School
+
+
+My
+
+> Question #1
+
+In the following command, what is argv[2]?
+
+$ ./argv "My School" "is fun"
+
+is
+
+
+fun
+
+
+NULL
+
+
+My School
+
+
+My School is fun
+
+
+./argv
+
+
+\>> is fun
+
+
+School
+
+
+My
+
+> Question #2
+
+In the following command, what is argv[2]?
+
+$ ./argv My School is fun
+
+is
+
+
+fun
+
+
+NULL
+
+
+My School
+
+
+My School is fun
+
+
+./argv
+
+
+is fun
+
+
+\>> School
+
+
+My
+
+> Question #3
+
+What is argv[0]
+
+
+> The program name
+
+
+NULL
+
+
+It does not always exist
+
+
+The first command line argument
+
+> Question #4
+
+What is argv?
+
+
+An array containing the program compilation flags
+
+
+\>> An array containing the program command line arguments
+
+
+\>> An array of size argc
+
+> Question #5
+
+What is argc?
+
+
+The length of the first command line argument
+
+
+\>>The number of command line arguments
+
+
+A flag set to 1 when command line arguments are present
+
+
+\>>The size of the argv array
+
+> Question #6
+
+What is argv[argc]?
+
+
+The last command line argument
+
+
+\>>NULL
+
+
+It does not always exist
+
+
+The program name
+
+
+The first command line argument
+
+######
+
+# 0xB
+> Question #0
+
+How many bytes will this statement allocate?
+
+malloc((sizeof(char) * 10) + 1)
+
+
+\>> 11
+
+
+1
+
+
+10
+
+
+20
+
+
+21
+
+> Question #1
+
+How many bytes will this statement allocate?
+
+malloc(10)
+
+
+40
+
+
+2
+
+
+\>> 10
+
+
+4
+
+> Question #2
+
+How many bytes will this statement allocate?
+
+malloc(sizeof(char) * 10)
+
+
+\>> 10
+
+
+20
+
+
+40
+
+> Question #3
+
+How many bytes will this statement allocate?
+
+malloc(sizeof(int) * 10)
+
+
+\>> 40
+
+
+32
+
+
+10
+
+> Question #4
+
+How many bytes will this statement allocate?
+
+malloc(sizeof(int) * 4)
+
+
+32
+
+
+4
+
+
+8
+
+
+\>> 16
+
+> Question #5
+
+What is Valgrind?
+
+
+It’s a program to test a C program in a specific environment
+
+
+A container service
+
+
+\>> It’s a program to validate memory allocation
+
+
+It’s a new step when I compile with gcc
+
+> Question #6
+
+How many bytes will this statement allocate?
+
+malloc(sizeof(unsigned int) * 2)
+
+
+2
+
+
+4
+
+
+\>> 8
+
+######
+
+# 0xC
 
 
 ######
 
+######
 # 0x10
 
 
