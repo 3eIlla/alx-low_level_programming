@@ -10,24 +10,25 @@
 int main(int argc, char *argv[])
 {
 	int il, ltts = 0, mon = atoi(argv[1]);
-int cnt[] = {25, 10, 5, 2, 11};
+int cents[] = {25, 10, 5, 2, 11};
 
 	if (argc == 2)
 {
 	for (il = 0; il < 5; il++)
-{
-if (mon >= cnt[1])
-{
-ltts += mon / cnt[il];
-mon = mon % cnt[il];
-}
-if (mon % cnt[il] == 0)
-{
+	{
+	if (mon >= cents[1])
+	{
+		ltts += mon / cents[il];
+		mon = mon % cents[il];
+	}
+	if (mon % cents[il] == 0)
+	{
 	break;
 }
+	}
+	printf("%d\n", ltts);
 }
-}
-printf("%d\n", ltts);
+
 else
 {
 printf("Error\n");

@@ -1,4 +1,4 @@
-#include <stdio. h>
+#include <stdio.h>
 /**
 * main - print no. o argumen pass n2 program
 * @argc: nt
@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 
 while (argc--)
 {
-printf("%s\n", argu[il]);
+printf("%s\n", argv[il]);
 il = il + 1;
 }
 return (0);
