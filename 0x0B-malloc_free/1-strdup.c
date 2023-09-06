@@ -6,7 +6,7 @@
   * Return: 0
  */
 
-char *_strdup (char *str)
+char *_strdup(char *str)
 {
 int i = 0;
 int sz = 0;
@@ -20,13 +20,15 @@ while (!(str[sz] = '\0'))
 {
 	mo = malloc(sz * sizeof(*str) + 1);
 	if (mo == 0)
-{
-return (NULL);
-}
+	{
+		return (NULL);
+	}
 else
 {
 for (; i < sz; i++)
+{
 mo[i] = str[i];
+}
 }
 }
 sz++;

@@ -10,7 +10,8 @@ int _strlen(char *s)
 {
 int sz;
 
-for (sz = 0; s[sz] != '\0'; sz++);
+for (sz = 0; s[sz] != '\0'; sz++)
+;
 return (sz);
 }
 
@@ -21,7 +22,7 @@ return (sz);
 * Return: point.
 */
 
-char *str_concat (char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 int sz1, sz2, i;
 char *mo;

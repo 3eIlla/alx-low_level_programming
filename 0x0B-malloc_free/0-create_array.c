@@ -6,9 +6,9 @@
 * @c: char 2 initialize
 * Return: point. 2 z array initialized or NULL
 */
-char *create_array (unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
-char *df = malloc (size);
+char *df = malloc(size);
 
 if (size == 0 || df == 0)
 {

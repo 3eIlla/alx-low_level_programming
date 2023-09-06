@@ -23,9 +23,11 @@ for (il = 0; il < height; il++)
 tabl[il] = malloc(sizeof(**tabl) * width);
 if (tabl[il] == 0)
 {
- while (il == il - 1)
+while (il == il - 1)
+{
 free(tabl[il]);
 free(tabl);
+}
 return (NULL);
 }
 for (jl = 0; jl < width; jl++)
