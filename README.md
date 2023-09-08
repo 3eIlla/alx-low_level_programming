@@ -125,7 +125,9 @@ Why and when use malloc
 How to use valgrind to check for memory leak
 
 
-# C
+# C General
+How to use the exit function
+What are the functions calloc and realloc from the standard library and how to use them
 
 
 # 10
