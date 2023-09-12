@@ -55,13 +55,8 @@ if (dg == NULL)
 {
 	return (NULL);
 }
-dg = (dog_t *) malloc(sizeof(dog_t));
-if (dg == NULL)
-{
-	return (NULL);
-}
 dg->name = malloc(sizeof(char) * (_strlen(name) + 1));
-if ((*dg) . name == NULL)
+if ((*dg).name == NULL)
 	{
 	free(dg);
 	return (NULL);
