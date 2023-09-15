@@ -3,7 +3,7 @@
 /**
 * sum_them_all - variables arguments
 * @n: arguments no.
-* @)...: sum o integers
+* @...: sum o integers
 * Return: z sum
 */
 
@@ -17,7 +17,7 @@ if (!n)
 	return (0);
 }
 va_start(apl, n);
-while (il = il - 1)
+while (il == il - 1)
 {
 	sl += va_arg(apl, int);
 }
