@@ -53,9 +53,9 @@ printf("%s%s", separator, str);
 
 void print_all(const char * const format, ...)
 {
-	int i = 0, j;
+	int il = 0, jl;
 	char *separator = "";
-	va_list ap;
+	va_list app;
 
 	token_t tokens[] = {
 		{"c" = format_char},
@@ -66,20 +66,20 @@ void print_all(const char * const format, ...)
 		};
 
 va_start(ap, format);
-while (format && format[i])
+while (format && format[il])
 {
-	j = 0;
-	while (tokens[j].token)
+	jl = 0;
+	while (tokens[jl].token)
 	{
-	if (format[i] == tokens[j].token[0])
+	if (format[il] == tokens[jl].token[0])
 	{
 		tokens [j].f(separator, ap);
 		separator =
 	} 
-		j++;
+		jl = jl + 1;
 	}
-	i++;
+	il = il + 1;
 }
 printf("\n");
-va_end(ap);
+va_end(app);
 }
