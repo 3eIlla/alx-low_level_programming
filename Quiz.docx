@@ -2530,10 +2530,105 @@ A pointer to a function that takes an int and a float as parameters and returns 
 ######
 
 ######
-# 0x10
-
-
+# 0x12
 ######
+
+
+> Question #0
+
+Arrays Vs Linked Lists: select all true statements
+
+
+We can easily remove an element from an Array
+
+
+\\>>> We can add elements indefinitely to a linked list
+
+
+\\>>> We can easily removed an element from a Linked list
+
+
+\\>>> Memory is aligned for an Array - each elements are back to back in the memory
+
+
+We can add elements indefinitely to an array
+
+
+Memory is aligned for a Linked list - each elements are back to back in the memory
+
+
+\\>>> Array can contain as value a structure
+
+
+\\>>>  Linked list can contain as value a structure
+
+> Question #1
+
+What’s the “tail” of a linked list?
+
+
+It’s the node with the lowest value
+
+
+\>> It’s the node with the pointer to the next equals to NULL
+
+
+It’s the first node
+
+
+It’s the node with the highest value
+
+> Question #2
+
+What’s the “head” of a linked list?
+
+
+It’s the node with the pointer to the next equals to NULL
+
+
+It’s the last node
+
+
+It’s the node with the highest value
+
+
+It’s the node with the lowest value
+
+
+\>> It’s the first node
+
+> Question #3
+
+What’s a node? (select all possible answers)
+
+
+\>> It’s a space allocated in memory
+
+
+It’s a server
+
+
+\>> It’s a structure with a pointer to the next node and value information
+
+
+It’s an integer
+
+
+It’s a cell in an array
+
+> Question #4
+
+In a singly linked list, what are possible directions to traverse it? (select all possible answers)
+
+
+Backward
+
+
+\>> Forward
+
+
+
+
 
 
 

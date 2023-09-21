@@ -146,13 +146,18 @@ What does a function pointer exactly hold
 Where does a function pointer point to in the virtual memory
 
 
-# 10
-General
+# 10 General
 What are variadic functions
 How to use va_start, va_arg and va_end macros
 Why and how to use the const type qualifier
 
+# 11 
 
+
+
+# 12 General
+When and why using linked lists vs arrays
+How to build and use linked lists
 
 
 
