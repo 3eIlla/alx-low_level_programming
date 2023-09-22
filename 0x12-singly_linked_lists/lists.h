@@ -15,6 +15,8 @@
 
 #include <stdlib.h>
 
+#include <string.h>     /* for startup */
+
 
 
 /* .   helper functions     . */
