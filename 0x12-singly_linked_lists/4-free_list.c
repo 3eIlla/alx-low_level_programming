@@ -15,7 +15,7 @@ void free_list(list_t *head)
 			return;
 		}
 
-	for ( n1 = head; n1; n1 = n2)
+	for (n1 = head; n1; n1 = n2)
 	{
 		n2 = n2->next;
 		free(n1->str);
