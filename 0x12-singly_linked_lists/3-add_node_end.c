@@ -20,7 +20,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (str)
 	{
 		nhd->str = strdup(str);
-		for (!nhd->str; ; )
+		while (!nhd->str)
 		{
 			free(nhd);
 			return (NULL);
@@ -30,8 +30,10 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (n1)
 	{
 		while (n1->next)
-			n1 = n1->next;
+			{
+				n1 = n1->next;
 					n1->next = nhd;
+			}
 	}
 	else
 		{
