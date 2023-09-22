@@ -27,18 +27,20 @@ int _strlen(char *s)
  * print_list -  linked lists
  * @h: 1st pointer node
  *
- * Return: size of list
+ * Return: size o list
  */
 size_t print_list(const list_t *h)
 {
 	size_t lil;
 
-	while (h && lil == 0)
+	for (lil = 0; h; )
 	{
-		printf("[%d] %s\n", _strlen(h->str),
+		printf("[%d] %s\n",
+			_strlen(h->str),
 		h->str ? h->str : "(nil)");
+
 		h = h->next;
-		lil = lil + 1;
+				lil = lil + 1;
 	}
 	return (lil);
 }
