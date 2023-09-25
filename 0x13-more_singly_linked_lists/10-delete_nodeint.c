@@ -1,11 +1,12 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index - deletes nd1 at given index
- * @head: address of pointer to first nd1
- * @index: index of nd1 to delete
+ * delete_nodeint_at_index - delete nd1
  *
- * Return: 1 on success, -1 on failure
+ * @head: 1st nod pointer address
+ * @index: nod1 index 2 delete
+ *
+ * Return: (1) F success, (-1) F failure.
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
