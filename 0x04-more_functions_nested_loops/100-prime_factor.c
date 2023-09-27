@@ -12,7 +12,7 @@ double _sqrt(double x)
 {
 	float sqo, tmp;
 
-	for (sqo = x / 2, tmp = 0; ; sqo != tmp; )
+	for (sqo = x / 2, tmp = 0; sqo != tmp; )
 	{
 		tmp = sqo;
 		sqo = (x / tmp + tmp) / 2;

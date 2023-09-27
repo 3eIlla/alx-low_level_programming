@@ -4,7 +4,7 @@
  *
  * @c: no. input
  *
- * return : 1 (sucsses) , else 0 (not)
+ * Return: 1 (sucsses) , else 0 (notsucs)
  */
 
 int _isdigit(int c)
