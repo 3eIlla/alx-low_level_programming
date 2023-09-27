@@ -2,15 +2,15 @@
 /**
  * print_numbers - prints no.
  *
- * @n :  digit input
- *
  * return :always 0 (sucsses)
  */
 
 void print_numbers(void)
 {
 	int n = 0;
+
 	do
+
 	{
 		_putchar(n + 48);
 			n = n + 1;

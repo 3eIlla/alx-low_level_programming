@@ -2,15 +2,15 @@
 /**
  * print_triangle- check upper case
  *
- * @h : no. input
- * @b : input of no.
+ * @size: space no. input
  *
- * return :always 0 (sucsses)
+ * Return: always 0 (sucsses)
  */
 
 void print_triangle(int size)
 {
 int h, b;
+
 if (size <= 0)
 {
     _putchar('\n');

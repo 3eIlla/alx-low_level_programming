@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isupper - check digi arring
+ * _isdigit - check digi arring
  *
  * @c: no. input
  *
@@ -8,7 +8,7 @@
  */
 
 
-int _isupper(int c)
+int _isdigit(int c)
 {
 if (c >= 48 && c <= 59)
 {
