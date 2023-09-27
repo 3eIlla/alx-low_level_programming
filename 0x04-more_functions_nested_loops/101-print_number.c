@@ -1,14 +1,25 @@
 #include "main.h"
 /**
- * print_numbers - check upper case
+ * print_number - Print int
  *
- * @n : no. input
- * @p : input character
+ * @n: The int
  *
- * return :always 0 (sucsses)
- */
+ * Return: always 0 (sucsses)
+*/
 
 void print_number(int n)
 {
+	unsigned int numb = n;
 
+	while (n < 0)
+	{
+		_putchar('-');
+		numb = -numb;
+	}
+
+	if ((numb / 10) > 0)
+		{
+			print_number(numb / 10);
+	}
+	_putchar((numb % 10) + 48);
 }

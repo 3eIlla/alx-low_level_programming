@@ -7,7 +7,6 @@
  * return : 1 (sucsses) , else 0 (not)
  */
 
-
 int _isdigit(int c)
 {
 if (c >= 48 && c <= 59)

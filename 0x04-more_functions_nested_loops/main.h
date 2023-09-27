@@ -3,6 +3,8 @@
 
 #include <unistd.h>
 
+#include <stdio.h>
+
 int _putchar(char c);
 
 
@@ -10,9 +12,10 @@ int _putchar(char c);
 
 
 
-/*0*/ /*1*/
+/*0*/
 int _isupper(int c);
-
+/*1*/
+int _isdigit(int c);
 /*2*/
 int mul(int a, int b);
 /*3*/
