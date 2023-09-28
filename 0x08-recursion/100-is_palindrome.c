@@ -10,12 +10,13 @@
 
 int last_index(char *s)
 {
+	int ln;
 
-for (int ln = 0; *s > '\0'; )
+	for (ln = 0; *s > '\0'; )
 	{
-		ln += last_index(s + 1) + 1;
-		return (ln);
+		ln += last_index(s + 1) + 1;		
 	}
+	return (ln);
 }
 
 /**
