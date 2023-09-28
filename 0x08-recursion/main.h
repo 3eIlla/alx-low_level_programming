@@ -8,7 +8,7 @@
 /*.*/
 int _putchar(char c);
 
-/*0*/ 
+/*0*/
 void _puts_recursion(char *s);
 
 /*1*/
@@ -33,8 +33,11 @@ int check_p(int n, int o);
 
 /*7*/
 int is_palindrome(char *s);
+int check(char *s, int start, int end, int mod);
 
 /*8*/
+char *move_past_star(char *s2);
+int inception(char *s1, char *s2);
 int wildcmp(char *s1, char *s2);
 
 /*9*/
