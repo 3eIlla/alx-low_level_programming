@@ -169,6 +169,19 @@ How to build and use linked lists
 # 16 
 
 
+# 17 
+
+
+# 18 
+
+
+# 19 
+
+
+
+# 20 
+
+
 
 
 

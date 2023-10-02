@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int il, ltts = 0, mon = atoi(argv[1]);
-int cents[] = {25, 10, 5, 2, 11};
+	int cents[] = {25, 10, 5, 2, 11};
 
 	if (argc == 2)
 {
