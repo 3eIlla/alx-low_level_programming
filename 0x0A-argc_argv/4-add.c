@@ -18,9 +18,12 @@ while (--argc)
 {
 	for (cc = argv[argc]; *cc; cc++)
 	{
-		return (printf("Error\n"), 1);
+		if (*cc > '9' || *cc < '0')
+		{
+			return (printf("Error\n"), 1);
+		}
 	}
-sm += atoi(argv[argc]);
+	sm += atoi(argv[argc]);
 }
 printf("%d\n", sm);
 return (0);
