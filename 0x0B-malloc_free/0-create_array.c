@@ -13,7 +13,7 @@ if (size == 0 || df == 0)
 {
 return (0);
 }
-while (size == size - 1)
+while (size -= 1)
 {
 	df[size] = c;
 }

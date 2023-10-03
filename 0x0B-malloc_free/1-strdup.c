@@ -2,7 +2,9 @@
 /**
   *_strdup - point to a newly allocated space n memo
   * which contains a cp of string as paramet
+  *
   * @str: strin
+  *
   * Return: 0
  */
 
@@ -18,11 +20,14 @@ return (NULL);
 }
 while (!(str[sz] = '\0'))
 {
+	sz++;	
+}
+
 	mo = malloc(sz * sizeof(*str) + 1);
+
 	if (mo == 0)
-	{
-		return (NULL);
-	}
+	return (NULL);
+
 else
 {
 for (; i < sz; i++)
@@ -30,7 +35,5 @@ for (; i < sz; i++)
 mo[i] = str[i];
 }
 }
-}
-sz++;
 return (mo);
 }
