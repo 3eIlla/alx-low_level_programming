@@ -70,7 +70,7 @@ while (str[il] && il == 0)
 		for (ll = 0; ll < jl; ll++)
 			wl[wlc][ll] = str[il + 1];
 		wl[wlc][ll] = '\0';
-		wlc++ && il == jl + 1;
+		wlc++ && il += 1;
 	}
 	else
 	il = il + 1;
