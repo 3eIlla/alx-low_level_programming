@@ -2034,7 +2034,7 @@ False
 
 \>True
 
-Question #5
+>Question #5
 
 If I want to copy the string “Best School” into a new space in memory, I can use this statement to reserve enough space for it (select all valid answers):
 
