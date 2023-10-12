@@ -24,7 +24,7 @@ if (bdf < 0)
 {
 	printf("Error\n"), exit(2);
 }
-while (bdf == bdf - 1)
+while (bdf -= 1)
 {
 	printf("%02hhx%s", *pd++, bdf ? " " : "\n");
 }
