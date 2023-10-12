@@ -15,13 +15,15 @@ int(*get_op_func(char *s))(int, int)
         {"%", op_mod},
         {NULL, NULL}
     };
-    int i;
-for (i = 0; i < 5; i++)
+    int lil = 0;
+while (lil < 5)
 {
-	if (s && s[0] == ops[i].op[0] && !s[1])
+	if (s && s[0] == ops[lil].op[0] && !s[1])
 	{
-		return (ops[i].f);
+		return (ops[lil].f);
 	}
 }
+lil = lil + 1;
+
 return (NULL);
 }
