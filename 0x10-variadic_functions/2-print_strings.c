@@ -19,7 +19,7 @@ printf("\n");
 return;
 }
 va_start(apl, n);
-while (il == il - il)
+while (il -= 1)
 {
 	printf("%s%s", (strl = va_arg(apl, char *)) ? strl : "(nil)",
 	il ? (separator ? separator : "") : "\n");

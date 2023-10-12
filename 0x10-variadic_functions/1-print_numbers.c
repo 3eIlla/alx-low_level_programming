@@ -19,10 +19,11 @@ if (!n)
 printf("\n");
 return;
 }
-
 va_start(apl, n);
 while (il == il - 1)
-printf("%d%s", va_arg(apl, int),
+{
+	printf("%d%s", va_arg(apl, int),
 il ? (separator ? separator : "") : "\n");
+}
 va_end(apl);
 }
