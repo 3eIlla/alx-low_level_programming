@@ -2,8 +2,10 @@
 
 /**
 * main - check the code for The school students.
+*
 * @argc: args no.
 * @argv: argument vector
+*
 * Return: 0.
 */
 
@@ -14,10 +16,11 @@ int main(int argc, char **argv)
 if (argc != 4)
 {
 	printf("Error\n"), exit(98);
+}
 adf = atoi(argv[1]);
 bdf = atoi(argv[3]);
+
 op_func = get_op_func(argv[2]);
-}
 if (!op_func)
 {
 	printf("Error\n"), exit(99);
