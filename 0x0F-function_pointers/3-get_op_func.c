@@ -22,8 +22,8 @@ while (lil < 5)
 	{
 		return (ops[lil].f);
 	}
-}
 lil = lil + 1;
+}
 
 return (NULL);
 }
