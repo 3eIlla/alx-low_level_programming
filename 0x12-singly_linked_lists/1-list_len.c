@@ -2,6 +2,7 @@
 
 /**
  * list_len - length o linked list
+ *
  * @h: 1st pointer node
  *
  * Return: size o list

@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * free_listint - get list of ints free
+ * free_listint - get list o ints free
+ *
  * @head: 1st nod pointer
  *
  * Return: void

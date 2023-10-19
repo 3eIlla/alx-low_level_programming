@@ -5,17 +5,16 @@
  *
  * @head: 1st nod pointer address
  *
- * Return: popped nod value 
+ * Return: popped nod value
  */
 int pop_listint(listint_t **head)
-{	
+{
 	int ln;
 	listint_t *nod;
 
 	if (!head || !*head)
-		{
 			return (0);
-		}
+
 	while (ln)
 	{
 	nod = (*head)->next;

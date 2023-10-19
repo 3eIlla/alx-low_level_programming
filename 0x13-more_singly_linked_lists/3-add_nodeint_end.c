@@ -2,6 +2,7 @@
 
 /**
  * add_nodeint_end - add nd1 N z bottom
+ *
  * @head: 1st nod pointer
  * @n: nd2 value
  *
@@ -20,9 +21,8 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	nd2->n = n;
 
 	if (!*head)
-	{
 		*head = nd2;
-	}
+
 	else
 	{
 		for (nd1 = *head; nd1->next; nd1->next = nd2)

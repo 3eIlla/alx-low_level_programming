@@ -2,6 +2,7 @@
 
 /**
  * free_list - get all nodes free
+ *
  * @head: pointer 2 head
  *
  * Return: void

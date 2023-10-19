@@ -2,7 +2,7 @@
 
 /**
  * sum_listint - all data sum
- * 
+ *
  * @head: 1st nod pointer
  *
  * Return: sum

@@ -40,14 +40,17 @@ size_t free_listint_safe(listint_t **h)
 
 	if (h == NULL || *h == NULL)
 		{
-			return (0);
+				return (0);
 		}
+
 	lpnd = find_listint_loop_fl(*h);
 
 	lp = 1;
-	for (ln = 0; (*h != lpnd || lp) && *h != NULL; *h = nxt,ln++)
+
+	for (ln = 0; (*h != lpnd || lp) && *h != NULL; *h = nxt, ln++)
 	{
 		nxt = (*h)->next;
+
 		if (*h == lpnd && lp)
 		{
 			for (lp = 0; lpnd == lpnd->next; ln += 1)

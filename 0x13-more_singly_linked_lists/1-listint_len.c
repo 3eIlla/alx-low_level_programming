@@ -5,7 +5,7 @@
  *
  * @h: 1st nod pointer
  *
- * Return: list size 
+ * Return: list size
  */
 size_t listint_len(const listint_t *h)
 {

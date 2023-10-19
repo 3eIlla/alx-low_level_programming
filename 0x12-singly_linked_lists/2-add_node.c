@@ -2,7 +2,8 @@
 
 /**
  * add_node - add node 2 start o list
- * @head: address of pointer
+ *
+ * @head: address o pointer
  * @str:  node str field
  *
  * Return: size o list

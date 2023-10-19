@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * _strlen - string length
+ * _strlen - strin len
+ *
  * @s: check length
  *
  * Return: len int
@@ -24,7 +25,8 @@ int _strlen(char *s)
 }
 
 /**
- * print_list -  linked lists
+ * print_list -  linked list
+ *
  * @h: 1st pointer node
  *
  * Return: size o list

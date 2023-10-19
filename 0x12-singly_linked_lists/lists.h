@@ -22,12 +22,12 @@
 /* .   helper functions     . */
 /**
  * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to the next node
  *
- * Description: singly linked list node structure
- * for Holberton project
+ * @str: string - (malloc'ed string)
+ * @len: length o z string
+ * @next: points 2 z nxt node
+ *
+ * Description: singly linked list node structure 4 alx proj
  */
 typedef struct list_s
 {

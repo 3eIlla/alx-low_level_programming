@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * _r - reallocates memory for an array of pointers to the nodes in a linked list
+ * _r - reallocates memory 4 array o pointers 2 z nods n  linked list
  *
  * @list: the old list to append
- * @size: size of the new list (always one more than the old list)
+ * @size: size of the new list (always one more than the old list).
  * @new: N.node added 2 z list
  *
  * Return: N.list pointer
@@ -13,6 +13,7 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 {
 	size_t lil;
 	const listint_t **nlst;
+
 	nlst = malloc(size * sizeof(listint_t *));
 
 	while (nlst == NULL)

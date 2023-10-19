@@ -3,7 +3,7 @@
 void _constructor(void) __attribute__ ((constructor));
 
 /**
- * _constructor - exe b4 main()
+ * _constructor - exe b 4 main()
  *
  * Return: void
  */
