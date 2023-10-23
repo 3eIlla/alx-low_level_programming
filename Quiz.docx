@@ -2122,7 +2122,7 @@ False
 
 What does the macro TABLESIZE expand to?
 
-#define BUFSIZE 1020
+#define BUFZ.ArchiveSIZE 1020
 #define TABLESIZE BUFSIZE
 #undef BUFSIZE
 #define BUFSIZE 37
@@ -2637,6 +2637,7 @@ Backward
 ######
 # 0x13
 
+*** Nothing ***
 
 ######
 

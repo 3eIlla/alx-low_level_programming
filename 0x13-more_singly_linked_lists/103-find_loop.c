@@ -5,7 +5,7 @@
  *
  * @head: linked list 2 search
  *
- * Return: (address of node) F loop starts/returns, (NULL) F no loop
+ * Return: (address o node) F loop starts/returns, (NULL) F no loop
  */
 listint_t *find_listint_loop(listint_t *head)
 {
