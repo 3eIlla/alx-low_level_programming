@@ -159,10 +159,16 @@ Why and how to use the const type qualifier
 When and why using linked lists vs arrays
 How to build and use linked lists
 
-# 13 
+# 13 General
+How to use linked lists
+Start to look for the right source of information without too much help
 
 
-# 14 
+
+# 14 General
+Look for the right source of information without too much help
+How to manipulate bits and use bitwise operators
+
 
 # 15 
 
