@@ -32,9 +32,10 @@ int create_file(const char *filename, char *text_content)
 {
 	int feld;
 	ssize_t bits = 0;
+
 	ssize_t lent = _strlen(text_content);
 
-	while (!filename)
+	if (!filename)
 		return (-1);
 	feld = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 
