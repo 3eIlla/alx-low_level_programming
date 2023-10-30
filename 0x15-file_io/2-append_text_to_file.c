@@ -34,11 +34,11 @@ int append_text_to_file(const char *filename, char *text_content)
 	ssize_t bits = 0;
 	ssize_t lent = _strlen(text_content);
 
-	while (!filename)
+	if (!filename)
 		return (-1);
 	feld = open(filename, O_WRONLY | O_APPEND);
 
-	if (feld == -1)
+	while (feld == -1)
 		return (-1);
 
 	if (lent)

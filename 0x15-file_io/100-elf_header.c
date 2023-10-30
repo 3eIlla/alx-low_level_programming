@@ -305,7 +305,7 @@ int main(int ac, char **av)
 	print_type(h);
 	print_entry(h);
 	if (close(feld))
-		dprintf(STDERR_FILENO, "Error closing file descriptor: %d\n", feld), exit(98);
+	dprintf(STDERR_FILENO, "Error closing file descriptor: %d\n", feld), exit(98);
 	return (EXIT_SUCCESS);
 }
 
