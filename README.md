@@ -170,12 +170,41 @@ Look for the right source of information without too much help
 How to manipulate bits and use bitwise operators
 
 
-# 15 
+# 15 General
+Look for the right source of information online
+How to create, open, close, read and write files
+What are file descriptors
+What are the 3 standard file descriptors, what are their purpose and what are their POSIX names
+How to use the I/O system calls open, close, read and write
+What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
+What are file permissions, and how to set them when creating a file with the open system call
+What is a system call
+What is the difference between a function and a system call
 
-# 16 
+
+# 16 General
+Who designed and implemented the original Unix operating system
+Who wrote the first version of the UNIX shell
+Who invented the B programming language (the direct predecessor to the C programming language)
+Who is Ken Thompson
+How does a shell work
+What is a pid and a ppid
+How to manipulate the environment of the current process
+What is the difference between a function and a system call
+How to create processes
+What are the three prototypes of main
+How does the shell use the PATH to find the programs
+How to execute another program with the execve system call
+How to suspend the execution of a process until one of its children terminates
+What is EOF / “end-of-file”?
 
 
-# 17 
+# 17 General
+What is a doubly linked list
+How to use doubly linked lists
+Understand and know how to implement the various operations (deletion, insertion, etc) with doubly linked lists
+Start to look for the right source of information without too much help
+
 
 
 # 18 
