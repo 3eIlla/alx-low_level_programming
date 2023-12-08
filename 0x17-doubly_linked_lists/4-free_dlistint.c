@@ -1,5 +1,6 @@
 #include "lists.h"
 
+
 /**
  * free_dlistint - dlist
  *
@@ -11,9 +12,10 @@ void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *node;
 
-	if (head)
+	while (head)
 	{
 		node = head;
+
 		head = head->next;
 
 		free(node);
