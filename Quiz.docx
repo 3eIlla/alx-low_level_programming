@@ -3269,6 +3269,60 @@ In a doubly linked list, what are possible directions to traverse it? (select al
 
 ######
 # 0x19
+Quiz questions
+Great! You've completed the quiz successfully! Keep going! (Hide quiz)
+Question #0
+
+What’s the command used to add a new element to a stack?
+
+
+pop
+
+
+\>>>>>>>push
+
+Question #1
+
+Which of these stacks are reversing the order of insertion? (select all possible answers)
+
+
+LILO
+
+
+FIFO
+
+
+\>>>>>>>FILO
+
+
+\>>>>>>>LIFO
+
+Question #2
+
+Which of these stacks are keeping the order of insertion? (select all possible answers)
+
+
+\>>>>>>>LILO
+
+
+\>>>>>>>FIFO
+
+
+FILO
+
+
+LIFO
+
+Question #3
+
+What’s the command used to remove a new element from a stack?
+
+
+\>>>>>>> pop
+
+
+push
+
 
 
 ######
