@@ -1,2 +1,4 @@
 
-print("my favorite line of {} is {:d}.".format("the zen o python", 11))
+
+for i in range(2, 10, 2):
+    print(i, end=" ")
